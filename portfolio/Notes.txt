@@ -1,2 +1,9 @@
 1. All title images need to have a height of 400 to fit with CSS
 2. All project images need a ratio of 750 by 500 pixels
+
+GIT CLI CLONE, ADD, COMMIT and Push :
+for files larger than 50 mb must use cli, 100 mb max
+1. move files to local directory
+git add . ( adds all files)
+git commit -m "must have text"
+git push origin main (local branch name)
