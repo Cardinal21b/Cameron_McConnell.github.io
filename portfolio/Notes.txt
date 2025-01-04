@@ -1,0 +1,2 @@
+1. All title images need to have a height of 400 to fit with CSS
+2. All project images need a ratio of 750 by 500 pixels

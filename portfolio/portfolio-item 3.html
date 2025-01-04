@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <title> Cameron Portfolio Website</title>
+       
+        
+        <link rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+          integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" />  <!-- integrity is used to fix different browser inconsistencies-->
+
+
+
+          <!-- Update with your own fonts on google fonts !-->
+
+            <link href=" https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+
+
+        <link rel="stylesheet" href="css/style.css"> <!-- Links to the stylesheet we made for CSS-->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <!-- Link to font awesome icons-->
+    </head>
+
+    <body>
+
+        <header>
+            
+                <div class="logo">
+                    <img src="" alt="">
+                </div>
+
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+
+                <nav class="nav"> <!-- creates a navigation class which contains an unorder list <ul> of links <li>  -->
+                    <ul class="nav__list">
+                        <li class = "nav__item"><a href="index.html" class="nav__link">Home</a></li> <!-- anchor links - same page direction-->
+                        <li class = "nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
+                        <li class = "nav__item"><a href = "index.html#about" class="nav__link">About Me</a></li>
+                    
+                    </ul>
+                </nav>
+
+
+        
+
+        </header>
+
+<!--intoduction image and name-->
+
+    <section class="intro" id="home">
+
+     <h1 class="section__title--intro">
+
+       <strong>Coding Portfolio</strong>
+    
+     </h1>      <!-- note that --intro indicates that it is a modifer class of the class section__title-->
+    
+        <p class = "section__subtitle section__subtitle--intro">Portfolio Programming with HTML, CSS, and Javascript</p>
+        <img src="img/portfolio-project-1.PNG" alt="portfolio project" class = "intro__image" >
+    
+    </section>    
+
+    <div class = "portfolio-item-individual">
+
+        <p> As a mechanical engineering student pursuing Industrial Engineering with an emphasis in control systems, it is 
+            important that I have experience in software developement, and am able to adapt to different languages and systems. 
+            This is my first large project using HTML, CSS, and Javascript.
+        </p>
+
+        <img src="img/portfolio images/1.3-image.PNG" alt="">
+
+        <p> Using a Youtube Video called "Build a Portfolio Website (citation below), I built this website from scratch on 
+        VSC and altered some of the script to work with my portfolio needs. This includes things like creating a mission page
+        and changing the design of the introduction section and menu icon.
+
+        <p>It is important not to reinvent the wheel, and part of my engineering mantra is modifying and upgrading systems instead
+        of attempting to rebuild them from scratch. This is represented by my use of a tutorial to understand the structure and syntax
+        of html, css and javascript while modifying and editing components once I have gained an understanding of the inner workings of
+        the language. </p>
+        
+        <p> Classes in C++ at Concordia engineering and personal education in python aided in my understanding of the project.</p>
+
+    </div>
+
+     <!--My Projects-->
+
+     <section class="my-projects" id="projects">
+        <h2 class = "section__title section__title--projects"> Highlighted Projects </h2>
+        <p class = "section__subtitle section__subtitle--projects"></p>  <!-- Leave as a paragraph instead of a subsection, since there are not many subsections (see h3s above)-->
+        
+        <div class="project">
+
+           <!-- Grid Items-->
+            
+           <div class="image-grid">
+
+            <a href="portfolio-item.html" class="image-item">
+                <div class="image-overlay">
+                    <p class="overlay-text">Text 1</p>
+                </div>
+                <img src="img/project image/projectimage1.PNG" alt="Image-1">
+            </a>
+            
+            <a href="portfolio-item 2.html" class="image-item">
+                <div class="image-overlay">
+                    <p class="overlay-text">Text 2</p>
+                </div>
+                <img src="img/project image/projectimage2.jpg"" alt="Image-2">
+            </a>
+            
+            <a href="portfolio-item 3.html"" class="image-item">
+                <div class="image-overlay">
+                    <p class="overlay-text">Text 3</p>
+                </div>
+                <img src="img/project image/projectimage3.jpg"" alt="Image-3">
+            </a>
+            <a href="portfolio-item 4.html" class="image-item">
+                <div class="image-overlay">
+                    <p class="overlay-text">Text 1</p>
+                </div>
+                <img src="img/project image/projectimage4.jpg" alt="Image-4">
+            </a>
+                    
+            <!-- Add more image items as needed -->
+        </div>
+
+       
+    </section>
+
+    <!--Footer-->
+
+    <footer class="footer">
+
+        <a href - "mailto: festivecam@gmail.com" class="footer__link"> festivecam@gmail.com </a>
+
+        <ul class="social-list"> <!-- this contains all my active socials-->
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="www.linkedin.com/in/cameron-mcc">
+                        <i class="fa-brands fa-github"></i>  <!--Font Awesome Icon-->
+                </a>
+            </li>  
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/Cardinal21b">
+                    <i class="fa-brands fa-github"></i> <!-- I think these wont work because not connected to internet-->
+                </a>  
+            </li>  
+
+            <!-- <li class="social-list__item"><a class="social_list__link" href="####">Github</a>  </li> put social media link here-->
+        </ul>
+
+    </footer>
+    
+    
+    <script src= "JS/index.js"></script>
+
+
+
+
+<!-- HTML is the Foundation / structure. Stylize elements using CSS and Javascript-->
+
+      
+
+         
+
+
+
+</body>
+</html>
