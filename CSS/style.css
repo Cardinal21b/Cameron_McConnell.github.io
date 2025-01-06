@@ -486,8 +486,8 @@ opacity: 0.5;
 /* Grid Container */
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2em;
     margin-top: 20px;
     margin:auto;
 }
