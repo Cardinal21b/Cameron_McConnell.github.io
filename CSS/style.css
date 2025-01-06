@@ -601,7 +601,7 @@ opacity: 0.5;
 .social-list__item {
 
     margin: 0 .5em;
-    font-size:var(--fs-h2);
+    font-size: 3em;
     color: var(--clr-accent);
 
 }
