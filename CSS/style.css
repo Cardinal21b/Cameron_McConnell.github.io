@@ -119,6 +119,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1em;
+    height: 3rem;
 }
 
 .logo {
@@ -245,6 +246,7 @@ header {
 
 .intro {
     position : relative;
+    height: 40rem;
 }
 
 .intro__img{
