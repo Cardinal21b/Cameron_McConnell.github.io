@@ -246,7 +246,12 @@ header {
 
 .intro {
     position : relative;
-    height: 50rem;
+    height: 45rem;
+}
+
+ .intro_port {  /* into port is for projects that have a header into that is smaller, we set a height that is smaller (rn #1) Specify two into project height sizes */
+    position : relative;
+    height: 35rem;
 }
 
 .intro__img{
@@ -268,6 +273,18 @@ header {
         grid-template-columns : min-content max-content;
     }
 
+      .intro_port {
+        display: grid;
+        width: min-content;
+        margin: 0 auto;
+        column-gap: 1em; 
+        grid-template-areas:
+        "img title"
+        "img subtitle";
+        grid-template-columns : min-content max-content;
+        height: 30rem;
+    }  /* note I should make a parent class .intro and the two height specifications into__intro1 and intro__intro2 */
+    
     .section__title--intro,
 
     .intro__img {
